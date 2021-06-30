@@ -37,4 +37,14 @@ class Period
 
         return $this->rates[$level];
     }
+
+    public function getRates() : array
+    {
+        if (!isset($this->rates)) {
+            throw new InvalidArgumentException("No rates found");
+        }
+
+        return $this->rates;
+
+    }
 }

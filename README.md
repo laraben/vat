@@ -1,4 +1,4 @@
-ibericode/vat
+laraben/vat
 ================
 
 [![Build Status](https://img.shields.io/travis/ibericode/vat.svg)](https://travis-ci.org/ibericode/vat)

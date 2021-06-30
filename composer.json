@@ -1,5 +1,5 @@
 {
-  "name": "ibericode/vat",
+  "name": "laraben/vat",
   "description": "PHP library for dealing with EU VAT",
   "keywords": ["vat"],
   "license": "MIT",
@@ -10,7 +10,9 @@
     },
     {
       "name": "Benoit Heidingsfeld",
-      "email": "benoit@laraben.be"
+      "email": "benoit@laraben.be",
+      "homepage": "https://laraben.be",
+      "role": "Developer"
 
     }
   ],

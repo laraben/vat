@@ -14,7 +14,7 @@ class LarabenVatRatesClient implements Client
      */
     public function fetch() : array
     {
-        $url = 'https://raw.githubusercontent.com/Ibericode/vat-rates/master/vat-rates.json';
+        $url = 'https://raw.githubusercontent.com/ibericode/vat-rates/master/vat-rates.json';
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);

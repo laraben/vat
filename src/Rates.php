@@ -83,7 +83,7 @@ class Rates
     private function loadFromRemote()
     {
         try {
-            $this->client = $this->client ?: new LarabenVatRatesClient();
+            $this->client = $this->client ? : new LarabenVatRatesClient();
             $this->rates = $this->client->fetch();
         } catch (ClientException $e) {
             // this property could have been populated from the local filesystem at this stage

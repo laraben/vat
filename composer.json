@@ -7,6 +7,11 @@
     {
       "name": "Danny van Kooten",
       "email": "hi@dvk.co"
+    },
+    {
+      "name": "Benoit Heidingsfeld",
+      "email": "benoit@laraben.be"
+
     }
   ],
   "require": {

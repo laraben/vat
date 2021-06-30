@@ -35,6 +35,7 @@ This library exposes 4 main classes to interact with: `Rates`, `Countries`, `Val
 
 ```php
 $rates = new Ibericode\Vat\Rates('/path-for-storing-cache-file.txt');
+$rates->getRatesForCountry('NL'); // array with different rates
 $rates->getRateForCountry('NL'); // 21
 $rates->getRateForCountry('NL', 'standard'); // 21
 $rates->getRateForCountry('NL', 'reduced'); // 9

@@ -4,7 +4,7 @@ laraben/vat
 
 This is a simple PHP library to help you deal with Europe's VAT rules. 
 
-- Fetch VAT rates for any EU member state using [Laraben/vat-rates](https://github.com/Iberico/vat-rates).
+- Fetch VAT rates for any EU member state using [Ibericode/vat-rates](https://github.com/ibericode/vat-rates).
 - Validate VAT numbers (by format and/or [existence](http://ec.europa.eu/taxation_customs/vies/))
 - Validate ISO-3316 alpha-2 country codes
 - Determine whether a country is part of the EU
@@ -37,7 +37,7 @@ $rates->getRateForCountry('NL', 'reduced'); // 9
 $rates->getRateForCountryOnDate('NL', new \Datetime('2010-01-01'), 'standard'); // 19
 ```
 
-This fetches rate from [Laraben/vat-rates](https://github.com/Laraben/vat-rates) and stores a local copy that is periodically refreshed (once every 12 hours by default).
+This fetches rate from [Laraben/vat-rates](https://github.com/Ibericode/vat-rates) and stores a local copy that is periodically refreshed (once every 12 hours by default).
 
 #### Validation
 
@@ -104,7 +104,7 @@ $geolocator->locateIpAddress('8.8.8.8'); // US
 
 #### Symfony support
 
-If you need to use this package in a Symfony environment, check out [Laraben/vat-bundle](https://github.com/Laraben/vat-bundle).
+If you need to use this package in a Symfony environment, check out [Ibericode/vat-bundle](https://github.com/Laraben/vat-bundle).
 
 ## License
 

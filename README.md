@@ -4,7 +4,7 @@ laraben/vat
 
 This is a simple PHP library to help you deal with Europe's VAT rules. 
 
-- Fetch VAT rates for any EU member state using [Laraben/vat-rates](https://github.com/Laraben/vat-rates).
+- Fetch VAT rates for any EU member state using [Laraben/vat-rates](https://github.com/Iberico/vat-rates).
 - Validate VAT numbers (by format and/or [existence](http://ec.europa.eu/taxation_customs/vies/))
 - Validate ISO-3316 alpha-2 country codes
 - Determine whether a country is part of the EU

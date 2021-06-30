@@ -37,7 +37,7 @@ $rates->getRateForCountry('NL', 'reduced'); // 9
 $rates->getRateForCountryOnDate('NL', new \Datetime('2010-01-01'), 'standard'); // 19
 ```
 
-This fetches rate from [Laraben/vat-rates](https://github.com/Ibericode/vat-rates) and stores a local copy that is periodically refreshed (once every 12 hours by default).
+This fetches rate from [Ibericode/vat-rates](https://github.com/Ibericode/vat-rates) and stores a local copy that is periodically refreshed (once every 12 hours by default).
 
 #### Validation
 

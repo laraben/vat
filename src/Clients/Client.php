@@ -1,6 +1,6 @@
 <?php
 
-namespace Ibericode\Vat\Clients;
+namespace Laraben\Vat\Clients;
 
 interface Client
 {

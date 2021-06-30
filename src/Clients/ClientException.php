@@ -1,8 +1,8 @@
 <?php
 
-namespace Ibericode\Vat\Clients;
+namespace Laraben\Vat\Clients;
 
-use Ibericode\Vat\Exception;
+use Laraben\Vat\Exception;
 
 class ClientException extends Exception
 {

@@ -27,12 +27,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Ibericode\\Vat\\": "src/"
+      "Laraben\\Vat\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Ibericode\\Vat\\Tests\\": "tests/"
+      "Laraben\\Vat\\Tests\\": "tests/"
     }
   },
   "config": {

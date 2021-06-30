@@ -1,10 +1,10 @@
 <?php
 
-namespace Ibericode\Vat\Tests\Clients;
+namespace Laraben\Vat\Tests\Clients;
 
-use Ibericode\Vat\Clients\IbericodeVatRatesClient;
-use Ibericode\Vat\Clients\Client;
-use Ibericode\Vat\Period;
+use Laraben\Vat\Clients\LarabenVatRatesClient;
+use Laraben\Vat\Clients\Client;
+use Laraben\Vat\Period;
 use PHPUnit\Framework\TestCase;
 
 class ClientsTest extends TestCase
@@ -25,6 +25,6 @@ class ClientsTest extends TestCase
 
     public function clientProvider()
     {
-        yield [new IbericodeVatRatesClient()];
+        yield [new LarabenVatRatesClient()];
     }
 }

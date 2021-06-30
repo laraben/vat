@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Ibericode\Vat;
+namespace Laraben\Vat;
 
 use DateTime;
 
@@ -10,7 +10,7 @@ use DateTime;
  *
  * This class contains ISO-3166-1-alpha2 country code data, plus a few common helpers for dealing with EU VAT.
  *
- * @package Ibericode\Vat
+ * @package Laraben\Vat
  */
 class Countries implements \Iterator, \ArrayAccess
 {

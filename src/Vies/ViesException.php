@@ -1,6 +1,6 @@
 <?php
 
-namespace Ibericode\Vat\Vies;
+namespace Laraben\Vat\Vies;
 
 use Exception;
 

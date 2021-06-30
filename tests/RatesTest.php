@@ -1,12 +1,12 @@
 <?php
 
-namespace Ibericode\Vat\Tests;
+namespace Laraben\Vat\Tests;
 
-use Ibericode\Vat\Clients\ClientException;
-use Ibericode\Vat\Clients\IbericodeVatRatesClient;
-use Ibericode\Vat\Exception;
-use Ibericode\Vat\Period;
-use Ibericode\Vat\Rates;
+use Laraben\Vat\Clients\ClientException;
+use Laraben\Vat\Clients\LarabenVatRatesClient;
+use Laraben\Vat\Exception;
+use Laraben\Vat\Period;
+use Laraben\Vat\Rates;
 use PHPUnit\Framework\Error\Error;
 use PHPUnit\Framework\TestCase;
 
@@ -21,7 +21,7 @@ class RatesTest extends TestCase
 
     private function getRatesClientMock()
     {
-        $client = $this->getMockBuilder(IbericodeVatRatesClient::class)
+        $client = $this->getMockBuilder(LarabenVatRatesClient::class)
             ->getMock();
         $client
             ->expects($this->once())

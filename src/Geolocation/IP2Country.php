@@ -1,13 +1,13 @@
 <?php
 
-namespace Ibericode\Vat\Geolocation;
+namespace Laraben\Vat\Geolocation;
 
 /**
  * Class IP2Country
  *
  * Geo-locates an IP address using ip2country.info
  *
- * @package Ibericode\Vat\Geolocation
+ * @package Laraben\Vat\Geolocation
  */
 class IP2Country
 {

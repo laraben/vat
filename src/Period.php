@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ibericode\Vat;
+namespace Laraben\Vat;
 
 use InvalidArgumentException;
 use DateTimeInterface;
@@ -10,7 +10,7 @@ use DateTimeInterface;
 /**
  * Class Period
  *
- * @package Ibericode\Vat
+ * @package Laraben\Vat
  * @internal
  */
 class Period

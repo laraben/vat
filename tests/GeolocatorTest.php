@@ -1,8 +1,8 @@
 <?php
 
-namespace Ibericode\Vat\Tests;
+namespace Laraben\Vat\Tests;
 
-use Ibericode\Vat\Geolocator;
+use Laraben\Vat\Geolocator;
 use PHPUnit\Framework\TestCase;
 
 class GeolocatorTest extends TestCase

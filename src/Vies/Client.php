@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Ibericode\Vat\Vies;
+namespace Laraben\Vat\Vies;
 
 use SoapClient;
 use SoapFault;

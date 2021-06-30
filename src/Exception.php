@@ -1,6 +1,6 @@
 <?php
 
-namespace Ibericode\Vat;
+namespace Laraben\Vat;
 
 class Exception extends \Exception
 {

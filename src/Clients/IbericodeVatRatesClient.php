@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Ibericode\Vat\Clients;
+namespace Laraben\Vat\Clients;
 
-use Ibericode\Vat\Period;
+use Laraben\Vat\Period;
 
-class IbericodeVatRatesClient implements Client
+class LarabenVatRatesClient implements Client
 {
     /**
      * @throws ClientException
@@ -14,7 +14,7 @@ class IbericodeVatRatesClient implements Client
      */
     public function fetch() : array
     {
-        $url = 'https://raw.githubusercontent.com/ibericode/vat-rates/master/vat-rates.json';
+        $url = 'https://raw.githubusercontent.com/Laraben/vat-rates/master/vat-rates.json';
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);

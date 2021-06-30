@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Ibericode\Vat;
+namespace Laraben\Vat;
 
 class Validator
 {

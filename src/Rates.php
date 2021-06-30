@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Ibericode\Vat;
+namespace Laraben\Vat;
 
 use DateTime;
 use DateTimeInterface;
 use DateTimeImmutable;
 
-use Ibericode\Vat\Clients\ClientException;
-use Ibericode\Vat\Clients\IbericodeVatRatesClient;
-use Ibericode\Vat\Clients\Client;
+use Laraben\Vat\Clients\ClientException;
+use Laraben\Vat\Clients\LarabenVatRatesClient;
+use Laraben\Vat\Clients\Client;
 
 class Rates
 {
@@ -83,7 +83,7 @@ class Rates
     private function loadFromRemote()
     {
         try {
-            $this->client = $this->client ?: new IbericodeVatRatesClient();
+            $this->client = $this->client ?: new LarabenVatRatesClient();
             $this->rates = $this->client->fetch();
         } catch (ClientException $e) {
             // this property could have been populated from the local filesystem at this stage

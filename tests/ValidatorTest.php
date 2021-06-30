@@ -1,8 +1,8 @@
 <?php
 
-namespace Ibericode\Vat\Tests;
+namespace Laraben\Vat\Tests;
 
-use Ibericode\Vat\Validator;
+use Laraben\Vat\Validator;
 
 use PHPUnit\Framework\TestCase;
 

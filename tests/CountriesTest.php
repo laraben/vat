@@ -1,10 +1,10 @@
 <?php
 
-namespace Ibericode\Vat\Tests;
+namespace Laraben\Vat\Tests;
 
 use DateTime;
-use Ibericode\Vat\Countries;
-use Ibericode\Vat\Exception;
+use Laraben\Vat\Countries;
+use Laraben\Vat\Exception;
 use PHPUnit\Framework\TestCase;
 
 class CountriesTest extends TestCase

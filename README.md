@@ -1,10 +1,6 @@
 laraben/vat
 ================
 
-[![Build Status](https://img.shields.io/travis/Laraben/vat.svg)](https://travis-ci.org/Laraben/vat)
-[![Latest Stable Version](https://img.shields.io/packagist/v/Laraben/vat.svg)](https://packagist.org/packages/Laraben/vat)
-![PHP from Packagist](https://img.shields.io/packagist/php-v/Laraben/vat.svg)
-![License](https://img.shields.io/github/license/Laraben/vat.svg)
 
 This is a simple PHP library to help you deal with Europe's VAT rules. 
 

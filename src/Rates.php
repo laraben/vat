@@ -138,6 +138,13 @@ class Rates
         $todayMidnight = new \DateTimeImmutable('today midnight');
         return $this->getRateForCountryOnDate($countryCode, $todayMidnight, $level);
     }
+    
+    public function getRatesForCountry(string $countryCode)
+    {
+        $todayMidnight = new \DateTimeImmutable('today midnight');
+		$arr_rates = $this->resolvePeriod($countryCode, $todayMidnight);
+        return $arr_rates;
+    }
 
     /**
      * @param string $countryCode ISO-3166-1-alpha2 country code
